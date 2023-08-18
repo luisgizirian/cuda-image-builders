@@ -11,4 +11,4 @@ Goals
 Ideal scenario:
 
 ## TODO
-* Figure out how to use one or other `devcontainer.json` in different base images when working on the "Nano" or other computer. Or other way to choose at dev time.
+- [ ] Figure out how to use one or other `devcontainer.json` in different base images when working on the "Nano" or other computer. Or other way to choose at dev time.
