@@ -21,7 +21,7 @@
 	"customizations": {
 		"vscode": {
             "extensions": [
-                "golang.go"
+                // "golang.go" (Extension added already by the Go Devcontainer Feature, above)
                 // Complete with your favorites!
             ]
 		}
