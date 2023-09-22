@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/l4t-base:35.4.1
+FROM nvcr.io/nvidia/l4t-base:35.3.1
 
 #
 # `sudo` for sudo (util needed for execution)
