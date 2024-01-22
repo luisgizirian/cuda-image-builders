@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Orin CUDA with Go",
+	"name": "Orin CUDA with Go (GUI-ready)",
 	"image": "cuda/base:latest",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	//"dockerFile": "Dockerfile",
@@ -37,6 +37,8 @@
 	"runArgs": [
 		"--net=host",
 		"--runtime",
-		"nvidia"
-	],
+		"nvidia",
+        "-v",
+        "/tmp/.X11-unix/:/tmp/.X11-unix"
+	]
 }
