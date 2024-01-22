@@ -6,6 +6,8 @@ Goals
 * Uncluttered digital environment. Work on different projects with different programming stacks and versions always accessing the GPU while keeping a clean host.
 * Uncluttered physical environment (not 100% achieved yet - failing for X11 - graphical applications). Use your main computer to develop and avoid multiple keyboards and mice forcing you to twist yourself all day long.
 
+> Keep `sudo xhost +` command handy and remember running it into host (**non-production** as it opens X-11 to everyone).
+
 ## Our tools
 
 Ideal scenario:
